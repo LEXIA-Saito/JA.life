@@ -43,7 +43,7 @@ export default function RootLayout({
         <div id="skip-to-content">
           <a 
             href="#main-content" 
-            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-primary-600 text-white px-4 py-2 rounded z-50"
+            className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-black text-white px-4 py-2 rounded z-50"
           >
             メインコンテンツへスキップ
           </a>
