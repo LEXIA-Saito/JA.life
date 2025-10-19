@@ -9,22 +9,22 @@ const notoSansJP = Noto_Sans_JP({
 })
 
 export const metadata: Metadata = {
-  title: 'JALIFE愛知 | 日本とアフリカの架け橋',
-  description: '愛知県を拠点とした日本とアフリカの文化交流・国際協力団体です。',
-  keywords: ['JALIFE', '愛知', 'アフリカ', '国際交流', '文化交流', '国際協力'],
-  authors: [{ name: 'JALIFE愛知' }],
+  title: '不動産会社 | 理想の住まいを見つけませんか',
+  description: '豊富な物件情報と確かな実績で、お客様の不動産取引をサポートいたします。売買から賃貸まで、幅広いニーズにお応えします。',
+  keywords: ['不動産', '売買', '賃貸', '投資', 'マンション', '戸建て', '土地'],
+  authors: [{ name: '不動産会社' }],
   openGraph: {
-    title: 'JALIFE愛知 | 日本とアフリカの架け橋',
-    description: '愛知県を拠点とした日本とアフリカの文化交流・国際協力団体です。',
-    url: 'https://jalife-aichi.com',
-    siteName: 'JALIFE愛知',
+    title: '不動産会社 | 理想の住まいを見つけませんか',
+    description: '豊富な物件情報と確かな実績で、お客様の不動産取引をサポートいたします。',
+    url: 'https://realestate.com',
+    siteName: '不動産会社',
     locale: 'ja_JP',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'JALIFE愛知 | 日本とアフリカの架け橋',
-    description: '愛知県を拠点とした日本とアフリカの文化交流・国際協力団体です。',
+    title: '不動産会社 | 理想の住まいを見つけませんか',
+    description: '豊富な物件情報と確かな実績で、お客様の不動産取引をサポートいたします。',
   },
   robots: {
     index: true,

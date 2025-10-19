@@ -7,10 +7,10 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     const navigation = [
-        { name: 'ホーム', href: '#home' },
-        { name: '私たちについて', href: '#about' },
-        { name: '活動内容', href: '#activities' },
-        { name: 'ニュース', href: '#news' },
+        { name: 'トップ', href: '#top' },
+        { name: '物件情報', href: '#properties' },
+        { name: '不動産取引の流れ', href: '#process' },
+        { name: '会社概要', href: '#company' },
         { name: 'お問い合わせ', href: '#contact' },
     ]
 
@@ -19,8 +19,8 @@ export default function Header() {
             <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" aria-label="メインナビゲーション">
                 <div className="flex justify-between items-center py-4">
                     <div className="flex items-center">
-                        <Link href="/" className="text-2xl font-bold text-primary-600 hover:text-primary-700 transition-colors">
-                            JALIFE愛知
+                        <Link href="/" className="text-2xl font-bold text-black hover:text-gray-700 transition-colors">
+                            不動産会社
                         </Link>
                     </div>
 
@@ -31,7 +31,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-md"
+                                    className="text-gray-700 hover:text-black px-3 py-2 text-sm font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 rounded-md"
                                 >
                                     {item.name}
                                 </Link>
@@ -43,7 +43,7 @@ export default function Header() {
                     <div className="md:hidden">
                         <button
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            className="text-gray-700 hover:text-primary-600 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 p-2 rounded-md"
+                            className="text-gray-700 hover:text-black focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 p-2 rounded-md"
                             aria-expanded={isMenuOpen}
                             aria-controls="mobile-menu"
                             aria-label="メニューを開く"
@@ -63,7 +63,7 @@ export default function Header() {
                                 <Link
                                     key={item.name}
                                     href={item.href}
-                                    className="text-gray-700 hover:text-primary-600 block px-3 py-2 text-base font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 rounded-md"
+                                    className="text-gray-700 hover:text-black block px-3 py-2 text-base font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 rounded-md"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     {item.name}

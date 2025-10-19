@@ -80,12 +80,10 @@ npm run dev
 
 ### Vercel (推奨)
 1. GitHubリポジトリをVercelに接続
-2. 自動デプロイが実行されます
-3. または手動デプロイ:
-```bash
-npm run build
-vercel --prod
-```
+2. Vercelが自動的にNext.jsプロジェクトを検出
+3. 自動デプロイが実行されます
+
+**注意**: vercel.jsonファイルは不要です。Vercelが自動的に最適な設定を適用します。
 
 ### ローカルビルド確認
 ```bash

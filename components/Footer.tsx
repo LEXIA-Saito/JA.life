@@ -3,10 +3,10 @@ import Link from 'next/link'
 export default function Footer() {
   const navigation = {
     main: [
-      { name: 'ホーム', href: '#home' },
-      { name: '私たちについて', href: '#about' },
-      { name: '活動内容', href: '#activities' },
-      { name: 'ニュース', href: '#news' },
+      { name: 'トップ', href: '#top' },
+      { name: '物件情報', href: '#properties' },
+      { name: '不動産取引の流れ', href: '#process' },
+      { name: '会社概要', href: '#company' },
       { name: 'お問い合わせ', href: '#contact' },
     ],
     social: [
@@ -44,10 +44,10 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
             <div className="text-2xl font-bold text-white">
-              JALIFE愛知
+              不動産会社
             </div>
             <p className="text-sm leading-6 text-gray-300">
-              日本とアフリカの架け橋として、文化交流と国際協力を推進する団体です。
+              お客様の理想の住まい探しをサポートする不動産会社です。
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -78,14 +78,14 @@ export default function Footer() {
                 <h3 className="text-sm font-semibold leading-6 text-white">お問い合わせ</h3>
                 <div className="mt-6 space-y-4">
                   <p className="text-sm leading-6 text-gray-300">
-                    Email: info@jalife-aichi.com
+                    Email: info@realestate.com
                   </p>
                   <p className="text-sm leading-6 text-gray-300">
-                    Tel: 052-XXX-XXXX
+                    Tel: 03-1234-5678
                   </p>
                   <p className="text-sm leading-6 text-gray-300">
-                    〒460-0008<br />
-                    愛知県名古屋市中区栄1-1-1
+                    〒100-0001<br />
+                    東京都千代田区千代田1-1-1
                   </p>
                 </div>
               </div>
@@ -94,7 +94,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 border-t border-gray-700 pt-8">
           <p className="text-xs leading-5 text-gray-400">
-            &copy; 2024 JALIFE愛知. All rights reserved.
+            &copy; 2024 不動産会社. All rights reserved.
           </p>
         </div>
       </div>
