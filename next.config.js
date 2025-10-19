@@ -8,10 +8,6 @@ const nextConfig = {
   poweredByHeader: false,
   // パフォーマンス最適化
   compress: true,
-  // Vercel最適化
-  experimental: {
-    optimizeCss: true,
-  },
 }
 
 module.exports = nextConfig
