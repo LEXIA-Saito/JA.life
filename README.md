@@ -79,14 +79,24 @@ npm run dev
 ## デプロイ
 
 ### Vercel (推奨)
+1. GitHubリポジトリをVercelに接続
+2. 自動デプロイが実行されます
+3. または手動デプロイ:
 ```bash
 npm run build
+vercel --prod
+```
+
+### ローカルビルド確認
+```bash
+npm run build
+npm start
 ```
 
 ### その他のプラットフォーム
-- Netlify
-- AWS Amplify
-- 静的ホスティング
+- Netlify: `npm run build && npm run export`
+- AWS Amplify: 自動ビルド設定
+- 静的ホスティング: `.next`フォルダをアップロード
 
 ## カスタマイズ
 
