@@ -1,6 +1,6 @@
-# JALIFE愛知 ウェブサイトリニューアル
+# 不動産会社 ウェブサイト
 
-このプロジェクトは、JALIFE愛知のウェブサイトをモダンなNext.jsアプリケーションとしてリニューアルしたものです。
+このプロジェクトは、不動産会社のウェブサイトをモダンなNext.jsアプリケーションとして開発したものです。
 
 ## 特徴
 
@@ -42,9 +42,9 @@ npm run dev
 ├── components/            # Reactコンポーネント
 │   ├── Header.tsx         # ヘッダーナビゲーション
 │   ├── Hero.tsx           # ヒーローセクション
-│   ├── About.tsx          # 私たちについて
-│   ├── Activities.tsx     # 活動内容
-│   ├── News.tsx           # ニュース
+│   ├── Properties.tsx     # 物件情報
+│   ├── Process.tsx        # 不動産取引の流れ
+│   ├── Company.tsx        # 会社概要
 │   ├── Contact.tsx        # お問い合わせ
 │   └── Footer.tsx         # フッター
 ├── public/                # 静的ファイル
